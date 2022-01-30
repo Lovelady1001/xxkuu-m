@@ -1,0 +1,34 @@
+{
+    "name": "xku",
+    "description": "xku",
+    "keywords": ["ku"],
+    "env": {
+        "AUUID": {
+            "description": "UUID",
+            "value": "0cec69f8-32fa-460e-94c5-2e3e90bfeaae"
+        },
+        "CADDYIndexPage": {
+            "description": "Caddy index page",
+            "value": "https://github.com/ripienaar/free-for-dev/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "Caddy Config",
+            "value": "https://raw.githubusercontent.com/YG-tsj/xrayku/master/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "xku config",
+            "value": "https://raw.githubusercontent.com/YG-tsj/xrayku/master/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "SS encryption",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "StoreFiles",
+            "value": "https://raw.githubusercontent.com/YG-tsj/xrayku/master/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/DanyTPG/xku",
+    "repository": "https://github.com/DanyTPG/xku",
+    "stack": "container"
+}
